@@ -10,7 +10,7 @@
     
     KEYWORD             \b(?alt:keyword.txt)\b
 
-    ENITY               (?default)
+    ENTITY               (?default)
     VARIABLE            (?default)
     IDENTIFIER          (?default)
     CONSTANT            (?default)
