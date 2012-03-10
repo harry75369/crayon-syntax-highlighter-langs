@@ -1,0 +1,10 @@
+reverse
+member
+mapcar
+format
+append
+lambda
+progn
+list
+cdr
+car

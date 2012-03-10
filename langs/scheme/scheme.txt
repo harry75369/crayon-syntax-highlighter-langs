@@ -1,0 +1,19 @@
+### SCHEME LANGUAGE ###
+
+#   ELEMENT_NAME [optional-css-class] REGULAR_EXPRESSION
+
+    NAME                Scheme
+    VERSION             0.1
+
+    COMMENT             (;[^\r\n]*)
+    STRING              ((?<!\\)".*?(?<!\\)")
+    
+    FUNCTION:KEYWORD    \b(?alt:function.txt)\b
+    RESERVED            \b(?alt:reserved.txt)\b
+
+    ENITY               (?default)
+    VARIABLE            (?default)
+    IDENTIFIER          (?default)
+    CONSTANT            (?default)
+    OPERATOR            (?default)
+    SYMBOL              (?default)
