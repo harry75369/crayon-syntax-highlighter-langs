@@ -3,13 +3,12 @@
 #   ELEMENT_NAME [optional-css-class] REGULAR_EXPRESSION
 
     NAME                Scheme
-    VERSION             0.1
+    VERSION             1.0
 
-    COMMENT             (;[^\r\n]*)
-    STRING              ((?<!\\)".*?(?<!\\)")
+    COMMENT             (;[^\r\n]*)|(#\|.*\|#)
+    STRING              ((?<!\\)".*?(?<!\\)")|(#\\.)
     
-    FUNCTION:KEYWORD    \b(?alt:function.txt)\b
-    RESERVED            \b(?alt:reserved.txt)\b
+    KEYWORD             \b(?alt:keyword.txt)\b
 
     ENITY               (?default)
     VARIABLE            (?default)

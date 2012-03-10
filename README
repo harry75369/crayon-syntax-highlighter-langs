@@ -1,0 +1,9 @@
+Additional Languages Support for Crayon Syntax Highlighter
+
+== Languages ==
+  * Scheme (R5RS)
+  * Haskell
+
+== References ==
+  * Keywords for Scheme: http://community.schemewiki.org/?scheme-keywords
+  
